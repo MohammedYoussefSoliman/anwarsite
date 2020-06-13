@@ -2,7 +2,7 @@ const header = document.querySelector('header')
 // navbar
 
 const scrollHeader = () => {
-    if (document.body.scrollTop > 1000 || document.documentElement.scrollTop > 1000) {
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
         header.classList.add('scrolled')
       } else {
         header.classList.remove('scrolled')
