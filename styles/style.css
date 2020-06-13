@@ -799,6 +799,87 @@ footer p {
     }
 }
 
+@media only screen and (max-width: 411px) {
+    .main-normal h1 {
+        font-size: 1.3rem;
+        font-weight: 700;
+        padding: 0.5rem;
+        width: 52%;
+    }
+
+    .main-invert h1 {
+        left: 50%;
+        font-size: 1.3rem;
+        font-weight: 700;
+        padding: 1rem;
+        width: 65%;
+    }
+
+    .main-normal h2 {
+        padding: 0.5rem;
+        padding-top: 2rem;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    .main-normal h1 {
+        width: 52%;
+    }
+
+    .main-invert h1 {
+        width: 65%;
+    }
+
+    .main-normal h2 {
+        padding: 0.5rem;
+        padding-top: 2rem;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .main-normal h1 {
+        font-size: 1.3rem;
+        font-weight: 700;
+        padding: 0.5rem;
+        width: 58%;
+    }
+
+    .main-invert h1 {
+        left: 50%;
+        font-size: 1.3rem;
+        font-weight: 700;
+        padding: 1rem;
+        width: 72%;
+    }
+
+    .main-normal h2 {
+        padding: 0.5rem;
+        padding-top: 2rem;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .main-normal h1 {
+        font-size: 1.3rem;
+        font-weight: 700;
+        padding: 0.5rem;
+        width: 60%;
+    }
+
+    .main-invert h1 {
+        left: 50%;
+        font-size: 1.3rem;
+        font-weight: 700;
+        padding: 1rem;
+        width: 75%;
+    }
+
+    .main-normal h2 {
+        padding: 0.5rem;
+        padding-top: 2rem;
+    }
+}
+
 @media only screen and (max-width: 320px) {
 
     .main-normal {
@@ -813,7 +894,7 @@ footer p {
         font-size: 1.3rem;
         font-weight: 700;
         padding: 0.5rem;
-        width: 74%;
+        width: 69%;
     }
 
     .main-normal h2 {
