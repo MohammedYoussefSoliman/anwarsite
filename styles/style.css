@@ -787,7 +787,7 @@ footer p {
         font-size: 1.3rem;
         font-weight: 700;
         padding: 0.5rem;
-        width: 71%;
+        width: 50%;
     }
 
     .main-invert h1 {
@@ -796,6 +796,22 @@ footer p {
         font-weight: 700;
         padding: 1rem;
         width: 81%;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .main-normal h1 {
+        width: 52%;
+    }
+
+    .main-invert h1 {
+        width: 63%;
+    }
+
+    .main-normal h2 {
+        padding: 0.5rem;
+        padding-top: 2rem;
+        width: 46%;
     }
 }
 
@@ -855,6 +871,7 @@ footer p {
     .main-normal h2 {
         padding: 0.5rem;
         padding-top: 2rem;
+        width: 51%;
     }
 }
 
@@ -877,6 +894,7 @@ footer p {
     .main-normal h2 {
         padding: 0.5rem;
         padding-top: 2rem;
+        width: 65%;
     }
 }
 
