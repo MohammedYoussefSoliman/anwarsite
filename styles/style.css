@@ -782,6 +782,23 @@ footer p {
 
 }
 
+@media only screen and (max-width: 550px) {
+    .main-normal h1 {
+        font-size: 1.3rem;
+        font-weight: 700;
+        padding: 0.5rem;
+        width: 71%;
+    }
+
+    .main-invert h1 {
+        left: 50%;
+        font-size: 1.3rem;
+        font-weight: 700;
+        padding: 1rem;
+        width: 81%;
+    }
+}
+
 @media only screen and (max-width: 320px) {
 
     .main-normal {
