@@ -591,6 +591,23 @@ footer p {
 
 }
 
+@media only screen and (max-width: 700px) {
+    .main-normal h1 {
+        font-size: 1.7rem;
+        font-weight: 700;
+        padding: 0.5rem;
+        width: 50%;
+    }
+
+    .main-invert h1 {
+        left: 50%;
+        font-size: 1.7rem;
+        font-weight: 700;
+        padding: 1rem;
+        width: 81%;
+    }
+}
+
 @media only screen and (max-width: 550px) {
 
     .main-normal {
@@ -717,8 +734,6 @@ footer p {
     .requirment .requirment-item p {
         font-size: 1.2rem;
     }
-
-
 
     .offer {
         padding: 0 2rem;
@@ -871,7 +886,7 @@ footer p {
     .main-normal h2 {
         padding: 0.5rem;
         padding-top: 2rem;
-        width: 51%;
+        width: 60%;
     }
 }
 
