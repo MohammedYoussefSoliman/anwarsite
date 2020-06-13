@@ -602,10 +602,10 @@ footer p {
     }
 
     .main-normal h1 {
-        font-size: 1.7rem;
+        font-size: 1.5rem;
         font-weight: 700;
         padding: 1rem;
-        width: 69%;
+        width: 63%;
     }
 
     .main-normal h2 {
@@ -635,10 +635,10 @@ footer p {
 
     .main-invert h1 {
         left: 50%;
-        font-size: 1.7rem;
+        font-size: 1.5rem;
         font-weight: 700;
         padding: 1rem;
-        width: 80%;
+        width: 73%;
     }
 
     .main-invert section {
