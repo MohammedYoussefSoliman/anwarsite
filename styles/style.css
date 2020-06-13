@@ -131,7 +131,7 @@ header.scrolled nav .nav-list .nav-list-item:first-child:after {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
     font-size: 2.5rem;
-    padding: 2rem 1rem;
+    padding: 1rem;
     background-color: var(--secondary-color);
     color: var(--main-color);
     transform: translate(-50%, -55%);
