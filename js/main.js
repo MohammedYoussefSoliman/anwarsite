@@ -1,11 +1,15 @@
-const header = document.querySelector('header')
+const header = document.querySelector('header');
+const home = document.querySelector('.home');
+
 // navbar
 
 const scrollHeader = () => {
     if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-        header.classList.add('scrolled')
+        header.classList.add('scrolled');
+        home.classList.add('open');
       } else {
-        header.classList.remove('scrolled')
+        header.classList.remove('scrolled');
+        home.classList.remove('open');
       }
 }
 
@@ -13,7 +17,7 @@ window.onscroll = scrollHeader;
 
 // smooth scrolling
 
-$('#navbar a, .btn').on('click', function(event) {
+$('#navbar a, .home a').on('click', function(event) {
 if (this.hash !== '') {
     event.preventDefault();
 
