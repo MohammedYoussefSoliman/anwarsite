@@ -4,7 +4,7 @@ const home = document.querySelector('.home');
 // navbar
 
 const scrollHeader = () => {
-    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+    if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 100) {
         header.classList.add('scrolled');
         home.classList.add('open');
       } else {

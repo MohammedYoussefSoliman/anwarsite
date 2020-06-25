@@ -211,9 +211,9 @@ header.scrolled nav .nav-list .nav-list-item:first-child:after {
     flex: 3;
 }
 
-.main-invert section .text p {
+.main-invert .about .text p {
     font-weight: 400;
-    font-size: 1.4rem;
+    font-size: 1.7rem;
     color: var(--secondary-color);
     text-align: left;
     margin-bottom: 2rem;
@@ -234,7 +234,7 @@ header.scrolled nav .nav-list .nav-list-item:first-child:after {
     width: 100%;
 }
 
-.main-invert section .responsive-dislay {
+.main-invert .responsive-dislay {
     display: none;
 }
 
@@ -293,6 +293,7 @@ header.scrolled nav .nav-list .nav-list-item:first-child:after {
     font-size: 2rem;
     align-self: center;
     margin-bottom: 2rem;
+    z-index: 10;
 }
 
 .services-components .serv .serv-content .serv-list .serv-list-item {
@@ -355,6 +356,7 @@ header.scrolled nav .nav-list .nav-list-item:first-child:after {
     border-radius: 10px;
     padding: 2rem 1rem;
     border: 2px solid var(--secondary-color);
+    color: var(--secondary-color);
     width: 400px;
     align-self: flex-end;
     display: flex;
@@ -409,16 +411,15 @@ header.scrolled nav .nav-list .nav-list-item:first-child:after {
 
 .home {
     position: fixed;
-    top: 90vh;
-    right: 7vw;
+    top: 80vh;
+    right: 0;
     z-index: 10000;
-    border-radius: 8px;
     display: none;
     justify-content: center;
     align-items: center;
     background-color: var(--main-color);
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     cursor: pointer;
     -webkit-box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.5);
     -moz-box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.5);
@@ -473,7 +474,7 @@ footer p {
         font-size: 2.5rem;
     }
 
-    .main-invert p, .main-invert section .responsive-dislay {
+    .main-invert p, .main-invert section .responsive-dislay, .main-invert .about .text p {
         font-size: 1.3rem;
     }
 
@@ -492,11 +493,11 @@ footer p {
         margin-bottom: 0;
     }
 
-    .main-invert section .text p:last-child {
+    .main-invert .about .text p:last-child {
         display: none;
     }
 
-    .main-invert section .responsive-dislay {
+    .main-invert .responsive-dislay {
         display: block
     }
 
@@ -699,8 +700,8 @@ footer p {
         width: 81%;
     }
 
-    .main-invert section p {
-        font-size: 1rem;
+    .main-invert .about .text p {
+        margin-bottom: 0;
     }
 }
 
@@ -764,7 +765,7 @@ footer p {
         width: 100%;
     }
 
-    .main-invert section p, .main-invert>p {
+    .main-invert section p, .main-invert>p, .main-invert .about .text p {
         width: 100%;
         text-align: left;
     }
@@ -1041,7 +1042,7 @@ footer p {
         margin-bottom: 1.2rem;
     }
 
-    .main-invert section p, .main-invert>p {
+    .main-invert section p, .main-invert>p, .main-invert .about .text p {
         width: 100%;
         text-align: left;
         font-size: 1.1rem;
